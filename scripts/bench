@@ -1,0 +1,3 @@
+
+url=$(go test -bench=$1 | benchgraph -title="Benchmark $1(x) in ns/op" | grep -o 'https*://[^"]*' )
+open $url
