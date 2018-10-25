@@ -3,7 +3,7 @@ package algorithms_test
 import (
 	"testing"
 
-	. "github.com/jszroberto/golang-algorithms"
+	. "github.com/jszroberto/go-algorithms"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
