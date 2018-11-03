@@ -1,7 +1,5 @@
 package dynamic
 
-import "fmt"
-
 // https://www.geeksforgeeks.org/find-the-longest-path-in-a-matrix-with-given-constraints/
 
 func FindLongestPathIncreasing(m [][]int) int {
@@ -28,6 +26,5 @@ func FindLongestPathIncreasing(m [][]int) int {
 			}
 		}
 	}
-	fmt.Println(dp)
 	return max
 }

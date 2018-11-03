@@ -8,10 +8,10 @@ import (
 )
 
 var _ = Describe("Palindrome", func() {
-  It("checks correct palindromes", func(){
-    Expect(CheckPalindrome("ov")).To(BeFalse())    
-    Expect(CheckPalindrome("ovo")).To(BeTrue())    
-    Expect(CheckPalindrome("abba")).To(BeTrue())    
-    Expect(CheckPalindrome("abcba")).To(BeTrue())    
-  })
+	It("checks correct palindromes", func() {
+		Expect(CheckPalindrome("ov")).To(BeFalse())
+		Expect(CheckPalindrome("ovo")).To(BeTrue())
+		Expect(CheckPalindrome("abba")).To(BeTrue())
+		Expect(CheckPalindrome("abcba")).To(BeTrue())
+	})
 })

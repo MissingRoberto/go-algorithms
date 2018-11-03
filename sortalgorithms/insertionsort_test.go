@@ -8,7 +8,7 @@ import (
 )
 
 var _ = Describe("Insertionsort", func() {
-	FIt("can sort the array", func() {
+	It("can sort the array", func() {
 		arr := []int{1, 4, 3, 2}
 		InsertionSort(arr)
 		Expect(arr).To(Equal([]int{1, 2, 3, 4}))

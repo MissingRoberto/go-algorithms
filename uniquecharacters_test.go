@@ -8,9 +8,9 @@ import (
 )
 
 var _ = Describe("Uniquecharacters", func() {
-  It("checks if unique", func(){
-    Expect(IsUnique("ab")).To(BeTrue())
-    Expect(IsUnique("abb")).To(BeFalse())
-    Expect(IsUnique("")).To(BeTrue())
-  })
+	It("checks if unique", func() {
+		Expect(IsUnique("ab")).To(BeTrue())
+		Expect(IsUnique("abb")).To(BeFalse())
+		Expect(IsUnique("")).To(BeTrue())
+	})
 })
