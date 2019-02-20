@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/jszroberto/golang-algorithms/concurrency/multiplerequests"
+	. "github.com/jszroberto/go-algorithms/concurrency/multiplerequests"
 )
 
 func TestMaxInMultipleRequests(t *testing.T) {
@@ -18,6 +18,7 @@ func TestMaxInMultipleRequests(t *testing.T) {
 		{"Simple", MaxInMultipleRequestsSimple},
 		{"WithErrors", MaxInMultipleRequestsWithErrors},
 		{"WithCancellation", MaxInMultipleRequestsWithCancellation},
+		{"WithErrorGroup", MaxInMultipleRequestsWithErrorGroup},
 	}
 
 	t.Log("When given different versions of the algorithm")
